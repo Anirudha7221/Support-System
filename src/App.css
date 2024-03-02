@@ -1,0 +1,32 @@
+#containeer{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+#Title{
+    color: orange;
+    font-size: 50px;
+    padding: 10px;
+}
+
+#submit-btn{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(245, 59, 223, 0.59);
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+}
+
+textarea{
+    border-radius: 8px;
+}
+
+#query-list{
+    padding: 10px;
+}
