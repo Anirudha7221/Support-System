@@ -16,7 +16,7 @@ const SupportForm = ({ onSubmit }) => {
         onChange={e => setQuery(e.target.value)}
         placeholder="Type your query here..."
       />
-      <button id='submit-btn' type="submit">Submit</button>
+      <button className='submit-btn' type="submit">Submit</button>
     </form>
   );
 };

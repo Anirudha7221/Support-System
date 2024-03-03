@@ -13,20 +13,52 @@
     padding: 10px;
 }
 
-#submit-btn{
-    padding: 10px;
+.submit-btn{
+    padding: 15px;
     margin: 5px;
     background-color: rgba(245, 59, 223, 0.59);
-    color: white;
+    color: black;
     font-weight: 700;
     border: none;
+    cursor: pointer;
     border-radius: 15px;
 }
 
 textarea{
     border-radius: 8px;
+    width: 20vw;
 }
 
 #query-list{
     padding: 10px;
+}
+
+h1{
+    font-size: 50px;
+    padding: 10px;
+    color: orange;
+}
+
+#register-form, #login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.register-item, .login-item{
+    padding: 10px;
+}
+
+.register-item>label, .login-item>label{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.register-item>input, .login-item>input{
+    border-radius: 10px;
+    width: 15vw;
+    border: 2px solid gray;
+    padding: 5px;
 }
